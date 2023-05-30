@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    height: 100vh;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+#navu{
+    color: #00ADB5;
+    font-size: 4rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+}
+
+#apro{
+    color: #EEEEEE;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 1.3REM;
+}
+
+#about{
+    background-color: #EEEEEE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    border-radius: 50%;
+    display: block;
+    margin-top: 30px;
+}
+
+.hello{
+    font-family: 'Righteous', cursive;
+    font-size: 2.4rem;
+}
+
+.content{
+    height: 100vhpx;
+    width: 700px;
+}
+
+#webd{
+    margin-top: 50px;
+    height: 150px;
+    width: 230px;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+#projects{
+    height: 100vh;
+}
+
+.p1{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.logo{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+footer{
+    background-color: #393E46;
+    height: 20px;
+    color: antiquewhite;
+    bottom: 0px;
+    text-align: center;
+    font-size: small;
+}
+
+footer a:hover{
+    color: #00ADB5;
+}
+
+#github{
+    margin-top: 100px;
+    background-color: #4b73b3;
+    color: #EEEEEE;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+@media (max-width: 600px){
+    #about{
+        background-color: #EEEEEE;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content{
+        text-align: center;
+        height: 800px;
+        width: 290px;
+
+    }
+
+    #github{
+        background-color: #4b73b3;
+        color: #EEEEEE;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-bottom: 100px;
+    }
+    
+
+    #webd{
+        margin-top: 30px;
+        margin-left: 35px;
+        height: 150px;
+        width: 230px;
+    }
+
+    #logo{
+        margin-top: 20px;
+
+        
+    }
+
+    
+
+}
+
+@media (max-width: 800px){
+    #about{
+        background-color: #EEEEEE;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content{
+        text-align: center;
+        height: 800px;
+        width: 290px;
+
+    }
+
+    #webd{
+        margin-top: 30px;
+        margin-left: 35px;
+        height: 150px;
+        width: 230px;
+    }
+
+    #logo{
+        margin-top: 20px;
+    }
+
+}
+
+#projects{
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+}
+
+.protext{
+    font-size: 3rem;
+    font-family: 'Satisfy', cursive;
+    color: #00ADB5;
+    margin-top: 100px;
+}
+#github{
+    background-color: #4b73b3;
+    color: #EEEEEE;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 100px;
+}
+
+
+
+.linktop1{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.linktop1>button{
+    background-color:#222831;
+    color: #EEEEEE;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 130px;
+}
+
+.cont1{
+    height: 300px;
+    width: 500px;
+    float: left;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+@media (max-width:700px){
+
+    #projects{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .protext{
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: 'Satisfy', cursive;
+        color: #00ADB5;
+    }
+    
+    .linktop1{
+
+        margin: 10px 0px;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .linktop1>button{
+        text-align: center;
+        background-color:#222831;
+        color: #EEEEEE;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .cont1{
+        height: 200px;
+        width: 300px;
+        border: 3px solid black;
+        border-radius: 10px;
+        display: block;
+        margin-left: 20px;
+
+        }
+
+    #projects p {
+        display: block;
+        height: 300px;
+        width: 200px;
+        margin: 50px 0px;
+    }
+}
+
+@media (min-width:700px) and (max-width:800px) {
+    
+    #projects{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .protext{
+        text-align: center;
+        font-size: 2.1rem;
+        font-family: 'Satisfy', cursive;
+        color: #00ADB5;
+    }
+    
+    .linktop1{
+
+        margin: 10px 0px;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    #github{
+        background-color: #4b73b3;
+        color: #EEEEEE;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-bottom: 100px;
+    }
+    
+    
+    .linktop1>button{
+        text-align: center;
+        background-color:#222831;
+        color: #EEEEEE;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        margin: 30px 300px;
+        display: block;
+
+    }
+    
+    .cont1{
+        height: 200px;
+        width: 300px;
+        border: 3px solid black;
+        border-radius: 10px;
+        display: block;
+
+        }
+
+    #projects p {
+        margin-top: 50px;
+        display: block;
+        height: 300px;
+        width: 300px;
+        margin: 50px 0px;
+
+    }
+}
